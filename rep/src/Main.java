@@ -36,20 +36,26 @@ public class Main {
 		
 		Autor nuevoautor = new Autor(nombre,apellido,fecha,sexo,eMail );		
 		
-		int a=Integer.parseInt(JOptionPane.showInputDialog("Elija uno de estos autores, para ver sus libros \n 1=Sanderson \n 2=Lucas "));
+		int a=Integer.parseInt(JOptionPane.showInputDialog("Elija uno de estos autores, para crear nuevo libro \n 1=Sanderson \n 2=Lucas "));
 		
 		if (a==1) {
-			JOptionPane.showMessageDialog(null, "Autor="+ mistborn + "\n" + mistborn2);
+			JOptionPane.showMessageDialog(null, "Ingreso sanderson");
+			//Preguntar nombre 
+			System.out.println("Ingresar nombre de libro");
+			String nombrelibro = Entrada.next();			
+			
+			
+			
+			
+			Libro libronuevo = new Libro(nombrelibro, sanderson,planeta, precio,año,cantidad);
 		} else if (a==2) {
 			JOptionPane.showMessageDialog(null, "Autor=" );
 		} else {
 			JOptionPane.showMessageDialog(null, "error no eligio, ningun autor.");
 		}
 		
-		JOptionPane.showInputDialog("ingrese autor");
-		JOptionPane.showInputDialog("ingrese ");
-		
-		
+		System.out.println("El libro nuevo es este " + libronuevo);
+				
 		
 	}
 
