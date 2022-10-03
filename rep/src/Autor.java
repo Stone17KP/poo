@@ -17,7 +17,7 @@ public class Autor {
 		this.sexo = sexo;
 		this.eMail = eMail;
 		
-		6541651232321
+		
 	}
 
 	@Override

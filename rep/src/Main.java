@@ -47,7 +47,7 @@ public class Main {
 			
 			
 			
-			Libro libronuevo = new Libro(nombrelibro, sanderson,planeta, precio,año,cantidad);
+	/*		Libro libronuevo = new Libro(nombrelibro, sanderson,planeta, precio,año,cantidad);
 		} else if (a==2) {
 			JOptionPane.showMessageDialog(null, "Autor=" );
 		} else {
@@ -55,8 +55,9 @@ public class Main {
 		}
 		
 		System.out.println("El libro nuevo es este " + libronuevo);
-				
+	*/			
 		
 	}
 
+}
 }
