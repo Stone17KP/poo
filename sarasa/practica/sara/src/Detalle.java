@@ -1,4 +1,3 @@
-package practica;
 
 public class Detalle extends HistoriaClinica{
 
